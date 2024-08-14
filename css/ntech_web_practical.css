@@ -170,3 +170,267 @@ header {
 .horizontal-card:last-child {
     margin-right: 0;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset and global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.top-bar .hotline {
+    font-size: 14px;
+}
+
+.top-bar .top-links a,
+.top-bar .dropdown {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main-header .logo {
+    height: 50px;
+}
+
+.main-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-header nav ul li {
+    margin-left: 30px;
+    position: relative;
+}
+
+.main-header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.main-header nav ul li a span {
+    margin-left: 5px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons .icon {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.header-icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icons .balance {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.search-bar {
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.search-dropdown {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.info-links a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Top Navigation */
+.top-nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    color: #4CAF50;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-bar select,
+.search-bar input,
+.search-bar button {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.cart {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Main Banner */
+.main-banner {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.sale-banner {
+    width: 60%;
+    float: left;
+}
+
+.small-banners {
+    width: 35%;
+    float: right;
+}
+
+.small-banner {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Categories & Featured Products */
+.categories-featured {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.categories {
+    width: 25%;
+    float: left;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories ul li {
+    padding: 10px 0;
+}
+
+.categories ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.featured-products {
+    width: 70%;
+    float: right;
+}
+
+.product-carousel {
+    display: flex;
+}
+
+.product-carousel .product {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Featured Brands */
+.featured-brands {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.featured-brands .brands {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-brands .brands img {
+    width: 100px;
+    height: auto;
+}
+
+/* Product Carousel */
+.product-carousel .carousel {
+    display: flex;
+}
+
+.product-carousel .carousel .product {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
