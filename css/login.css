@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header-hansel {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-hansel {
+    display: inline-block;
+}
+
+.logo-img-hansel {
+    width: 150px;
+    height: auto;
+}
+
+.nav-hansel {
+    margin-top: 10px;
+}
+
+.main-hansel {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section-hansel {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.login-image-hansel {
+    width: 50%;
+    border-right: 2px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border: 2px dashed #cccccc;
+}
+
+.login-form-hansel {
+    width: 50%;
+    padding: 40px;
+}
+
+.login-title-hansel {
+    color: #27ae60;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label-hansel {
+    display: block;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-hansel {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.forgot-password-hansel {
+    display: block;
+    margin-bottom: 20px;
+    color: #27ae60;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-button-hansel {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.register-link-hansel {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.register-link-hansel a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.footer-hansel {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e0e0e0;
+}
